@@ -16,7 +16,7 @@ installer() {
     exit 1
   fi
 
-  if ! which java >/dev/null; then
+  if ! command -v java >/dev/null; then
     echo "You need a Java Runtime already installed on your computer."
     echo "You can use asdf-java for this: asdf plugin-add java && asdf list-all java"
     echo "As an alternative, follow the instructions for your platform"
