@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -x
+
 readonly releases_path="https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-cli/"
 cmd="curl -Ls $releases_path"
 

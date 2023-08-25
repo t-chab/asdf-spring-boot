@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -x
+
 installer() {
   local install_type=$1
   local version=$2
